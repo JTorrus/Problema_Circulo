@@ -1,16 +1,23 @@
-Circulo
+interface Figura
+- fun perimetro(): double
+- fun area(): double
+
+class Circulo
 - attr radio: double
 - attr posicion: Posicion 
 - fun perimetro(): double
 - fun area(): double
 
-Rectangulo
-- attr altura: double
-- attr base: double
-- attr posicion: Posicion
+class Rectangulo
+- attr posiciones: Posicion[4]
 - fun perimetro(): double
 - fun area(): double
 
-Posicion
+class Triangulo
+- attr posiciones: Posicion[3]
+- fun perimetro(): double
+- fun area(): double
+
+class Posicion
 - attr posX: int
 - attr posY: int
