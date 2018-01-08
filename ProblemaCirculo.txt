@@ -2,6 +2,9 @@ interface Figura
 - fun perimetro(): double
 - fun area(): double
 
+interface CalculadorDistancia
+- fun calcular(): double
+
 abstract class Poligono impl Figura
 - attr posiciones: Posicion[]
 - fun perimetro(): double
