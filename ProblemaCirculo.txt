@@ -1,10 +1,16 @@
 Circulo
-- attr radio: double 
+- attr radio: double
+- attr posicion: Posicion 
 - fun perimetro(): double
 - fun area(): double
 
 Rectangulo
 - attr altura: double
 - attr base: double
+- attr posicion: Posicion
 - fun perimetro(): double
 - fun area(): double
+
+Posicion
+- attr posX: int
+- attr posY: int
