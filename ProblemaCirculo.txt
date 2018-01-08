@@ -2,3 +2,9 @@ Circulo
 - attr radio: double 
 - fun perimetro(): double
 - fun area(): double
+
+Rectangulo
+- attr altura: double
+- attr base: double
+- fun perimetro(): double
+- fun area(): double
