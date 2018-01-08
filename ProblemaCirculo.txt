@@ -1,0 +1,4 @@
+Circulo
+- attr radio: double 
+- fun perimetro(): double
+- fun area(): double
