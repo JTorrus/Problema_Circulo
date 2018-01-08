@@ -2,20 +2,20 @@ interface Figura
 - fun perimetro(): double
 - fun area(): double
 
-class Circulo
+abstract class Poligono impl Figura
+- attr posiciones: Posicion[]
+- fun perimetro(): double
+
+class Circulo impl Figura
 - attr radio: double
 - attr posicion: Posicion 
 - fun perimetro(): double
 - fun area(): double
 
-class Rectangulo
-- attr posiciones: Posicion[4]
-- fun perimetro(): double
+class Rectangulo ext Poligono
 - fun area(): double
 
-class Triangulo
-- attr posiciones: Posicion[3]
-- fun perimetro(): double
+class Triangulo ext Poligono
 - fun area(): double
 
 class Posicion
