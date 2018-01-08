@@ -3,10 +3,13 @@ interface Figura
 - fun area(): double
 
 interface CalculadorDistancia
-- fun calcular(): double
+- fun calcular(Punto a, Punto b): double
+
+class DistanciaManchester impl CalculadorDistancia
+- fun calcular(Punto a, Punto b): double
 
 abstract class Poligono impl Figura
-- attr posiciones: Posicion[]
+- attr puntos: Punto[]
 - fun perimetro(): double
 
 class Circulo impl Figura
@@ -21,6 +24,6 @@ class Rectangulo ext Poligono
 class Triangulo ext Poligono
 - fun area(): double
 
-class Posicion
+class Punto
 - attr posX: int
 - attr posY: int
