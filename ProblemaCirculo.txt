@@ -27,3 +27,8 @@ class Triangulo ext Poligono
 class Punto
 - attr posX: int
 - attr posY: int
+
+class Lado
+- attr a: Punto
+- attr b: Punto
+- attr length: Double
